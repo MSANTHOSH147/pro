@@ -1,80 +1,75 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saka Food Delivery</title>
 
-<title>Saka Food Delivery</title>
-
+```
 <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
 
 <link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+```
 
 </head>
+
 <body>
 
-<header>
-    <nav class="navbar">
+```
+<!-- NAVBAR -->
 
-        <div class="logo">
-            SAKA
-        </div>
+<nav class="navbar">
 
-        <ul class="nav-links">
+    <div class="logo">
+        <i class="fa-solid fa-bowl-food"></i> SAKA
+    </div>
 
-            <li><a href="#">Home</a></li>
-            <li><a href="#features">Features</a></li>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
 
-            <li class="dropdown">
+    <button class="nav-btn">
+        Order Now
+    </button>
 
-                <a href="#">Services ▾</a>
+</nav>
 
-                <ul class="dropdown-menu">
-                    <li><a href="#">Food Delivery</a></li>
-                    <li><a href="#">Business Orders</a></li>
-                    <li><a href="#">Partner Restaurants</a></li>
-                </ul>
-
-            </li>
-
-            <li><a href="#contact">Contact</a></li>
-
-        </ul>
-
-        <div class="menu-btn">☰</div>
-
-    </nav>
-</header>
+<!-- HERO -->
 
 <section class="hero">
 
     <div class="hero-content">
 
         <span class="badge">
-            New Startup • Food Technology
+            🚀 Fastest Growing Food Startup
         </span>
 
         <h1>
-            Fast Food Delivery
-            For Modern Cities
+            Your Favorite Meals,
+            Delivered In Minutes.
         </h1>
 
         <p>
-            Order from your favorite restaurants and get
-            fresh meals delivered to your doorstep in minutes.
+            Order from hundreds of restaurants and get fresh food delivered
+            right to your doorstep.
         </p>
 
         <div class="hero-buttons">
 
             <button class="primary-btn">
-                Get Started
+                Order Food
             </button>
 
             <button class="secondary-btn">
-                Learn More
+                View Restaurants
             </button>
 
         </div>
@@ -83,84 +78,204 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
 </section>
 
-<section id="features" class="features">
+<!-- SEARCH -->
+
+<section class="search-section">
+
+    <h2>Find Your Favorite Food</h2>
+
+    <div class="search-box">
+
+        <input
+type="text"
+id="foodSearch"
+placeholder="Search food, restaurant, cuisine...">
+
+        <button>
+            Search
+        </button>
+
+    </div>
+
+</section>
+
+<!-- CATEGORIES -->
+
+<section class="categories">
+
+    <h2>Popular Categories</h2>
+
+    <div class="category-grid">
+
+        <div class="category-card">🍕 Pizza</div>
+        <div class="category-card">🍔 Burger</div>
+        <div class="category-card">🍗 Chicken</div>
+        <div class="category-card">🥗 Healthy</div>
+        <div class="category-card">🍜 Noodles</div>
+        <div class="category-card">🍰 Desserts</div>
+
+    </div>
+
+</section>
+
+<!-- RESTAURANTS -->
+
+<section class="restaurants">
+
+    <h2>Top Restaurants</h2>
+
+    <div class="restaurant-grid">
+
+        <div class="restaurant-card">
+
+            <img src="images/burger.jpg" alt="Burger Hub">
+
+            <h3>Burger Hub</h3>
+
+            <p>⭐ 4.8 • 20 mins</p>
+
+        </div>
+
+        <div class="restaurant-card">
+
+            <img src="images/pizza.jpg" alt="Pizza Palace">
+            <h3>Pizza Palace</h3>
+
+            <p>⭐ 4.7 • 25 mins</p>
+
+        </div>
+
+        <div class="restaurant-card">
+
+            <img src="images/biriyani.jpg" alt="Biryani House">
+
+            <h3>Biryani House</h3>
+
+            <p>⭐ 4.9 • 18 mins</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FEATURES -->
+
+<section class="features">
 
     <h2>Why Choose Saka?</h2>
 
     <div class="feature-grid">
 
-        <div class="card">
-            <i class="fa-solid fa-bolt"></i>
-            <h3>Lightning Fast</h3>
-            <p>Quick deliveries with smart routing.</p>
+        <div class="feature-card">
+            ⚡ Fast Delivery
         </div>
 
-        <div class="card">
-            <i class="fa-solid fa-mobile-screen"></i>
-            <h3>Responsive</h3>
-            <p>Works perfectly on every device.</p>
+        <div class="feature-card">
+            📍 Live Tracking
         </div>
 
-        <div class="card">
-            <i class="fa-solid fa-store"></i>
-            <h3>Restaurant Network</h3>
-            <p>Growing partner restaurants daily.</p>
+        <div class="feature-card">
+            💳 Secure Payments
         </div>
 
-        <div class="card">
-            <i class="fa-solid fa-chart-line"></i>
-            <h3>Scalable</h3>
-            <p>Built for future growth and expansion.</p>
+        <div class="feature-card">
+            🎁 Daily Offers
         </div>
 
     </div>
 
 </section>
 
-<section id="contact" class="contact">
+<!-- STATS -->
 
-    <div class="contact-box">
+<section class="stats">
 
-        <h2>Contact Us</h2>
+    <div class="stat">
+        <h2>500+</h2>
+        <p>Restaurants</p>
+    </div>
 
-        <p>Let's build the future of food delivery together.</p>
+    <div class="stat">
+        <h2>50K+</h2>
+        <p>Orders</p>
+    </div>
 
-        <div class="contact-details">
+    <div class="stat">
+        <h2>25+</h2>
+        <p>Cities</p>
+    </div>
 
-            <p>
-                <i class="fa-solid fa-envelope"></i>
-                hello@sakafood.com
-            </p>
+    <div class="stat">
+        <h2>4.9★</h2>
+        <p>Rating</p>
+    </div>
 
-            <p>
-                <i class="fa-solid fa-phone"></i>
-                +91 98765 43210
-            </p>
+</section>
 
-            <p>
-                <i class="fa-solid fa-location-dot"></i>
-                Chennai, Tamil Nadu, India
-            </p>
+<!-- TESTIMONIALS -->
 
-        </div>
+<section class="testimonials">
+
+    <h2>Customer Reviews</h2>
+
+    <div class="testimonial-card">
+
+<p id="testimonial-text">
+Fast delivery and excellent customer service.
+</p>
+
+<h4 id="testimonial-name">
+Rahul
+</h4>
+
+</div>
+
+</section>
+
+<!-- APP SECTION -->
+
+<section class="app-section">
+
+    <h2>Download Saka App</h2>
+
+    <p>
+        Get exclusive offers and faster ordering.
+    </p>
+    <div class="app-preview">
+
+<img src="images/app-mockup.png"
+alt="Saka Mobile App">
+
+</div>
+
+    <div class="app-buttons">
+
+        <button>
+            Google Play
+        </button>
+
+        <button>
+            App Store
+        </button>
 
     </div>
 
 </section>
+
+<!-- FOOTER -->
 
 <footer>
 
-    <p>© 2025 Saka Food Delivery</p>
-
-    <div class="footer-links">
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms</a>
-        <a href="#">Contact</a>
-    </div>
+    <p>
+        © 2025 Saka Food Delivery
+    </p>
 
 </footer>
 
 <script src="script.js"></script>
+```
 
 </body>
+
 </html>
